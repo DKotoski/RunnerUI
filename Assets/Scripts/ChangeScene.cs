@@ -8,6 +8,5 @@ public class ChangeScene : MonoBehaviour {
     {
         loading.SetActive(true);
         Application.LoadLevel(level);
-        loading.SetActive(false);
     }
 }
