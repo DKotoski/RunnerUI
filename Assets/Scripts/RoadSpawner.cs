@@ -9,7 +9,7 @@ public class RoadSpawner : MonoBehaviour {
 
 	public GameObject JunctionPrefab;
 
-	private bool hasJunction;
+	public bool hasJunction;
 	public double JunctionTimer;
 
 	private double JT;
